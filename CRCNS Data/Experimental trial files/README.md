@@ -3,12 +3,12 @@
 **Note:**
 - (features included) is a list of features with a length equal to feature_size
 - Feature selection was informed by recursive feature elimination
--   Top 3 features: full amplitude, negative amplitude, positive amplitude
--   Top 4 features: full amplitude, negative amplitude, positive amplitude, regularity
--   Top 5 features: full amplitude, negative amplitude, positive amplitude, regularity, interspike interval
--   8 features: all calculated features
--   29 features: points of raw waveform
--   37 features: combined calculated and raw features
+  - Top 3 features: full amplitude, negative amplitude, positive amplitude
+  - Top 4 features: full amplitude, negative amplitude, positive amplitude, regularity
+  - Top 5 features: full amplitude, negative amplitude, positive amplitude, regularity, interspike interval
+  - 8 features: all calculated features
+  - 29 features: points of raw waveform
+  - 37 features: combined calculated and raw features
 
 **Multilayer Perceptron Network (MPN) & Convolutional Neural Network (CNN):**    
 experiment number, trials, learning rate, training epochs, feature size, (features included)

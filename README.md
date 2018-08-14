@@ -7,4 +7,4 @@ Developed by Rohan Parikh.
 
 Research publication pending.
 
-Datasets provided from Nuo Li on CRCNS and Mike Economo from Janelia Research Campus.
+Datasets provided from [Nuo Li on CRCNS] (https://crcns.org/data-sets/motor-cortex/alm-1) and Mike Economo from Janelia Research Campus.

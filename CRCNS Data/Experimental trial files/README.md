@@ -1,6 +1,6 @@
 **Experimental trial files metadata information**
 
-_Note:_
+**Note:**
 - (features included) is a list of features with a length equal to feature_size
 - Feature selection was informed by recursive feature elimination
 -   Top 3 features: full amplitude, negative amplitude, positive amplitude
@@ -10,33 +10,26 @@ _Note:_
 -   29 features: points of raw waveform
 -   37 features: combined calculated and raw features
 
-Multilayer Perceptron Network (MPN) & Convolutional Neural Network (CNN):   
+**Multilayer Perceptron Network (MPN) & Convolutional Neural Network (CNN):**    
 experiment number, trials, learning rate, training epochs, feature size, (features included)
 
-Random Forests (RF):
-
+**Random Forests (RF):**    
 number of trees, max features, feature size, (features included)
 
-Gradient Tree Boosting (GTB):
-
+**Gradient Tree Boosting (GTB):**     
 number of trees, feature size, (features included)
 
-K-means Clustering (K-means):
-
+**K-means Clustering (K-means):**     
 number of clusters, n_init, max iterations, feature size, (features included)
 
-K-nearest Neighbors (KNN): 
-
+**K-nearest Neighbors (KNN):**    
 number of neighbors, feature size, (features included)
 
-t-distributed Stochastic Neighbor Embedding (TSNE):
-
+**t-distributed Stochastic Neighbor Embedding (TSNE):**    
 perpexity, learning rate, number of iterations, feature size, (features included)
 
-Extra Trees Classifier (ET):
-
+**Extra Trees Classifier (ET):**    
 number of trees, feature size, (features included)
 
-Logistic Regression Classifier (LR):
-
+**Logistic Regression Classifier (LR):**    
 relative regularization strength, feature size, (features included)

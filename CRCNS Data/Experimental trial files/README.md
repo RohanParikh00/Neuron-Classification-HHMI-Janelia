@@ -1,6 +1,6 @@
-#Experimental trial files metadata information
+**Experimental trial files metadata information**
 
-Note: 
+_Note:_
 - (features included) is a list of features with a length equal to feature_size
 - Feature selection was informed by recursive feature elimination
 -   Top 3 features: full amplitude, negative amplitude, positive amplitude
@@ -10,8 +10,7 @@ Note:
 -   29 features: points of raw waveform
 -   37 features: combined calculated and raw features
 
-Multilayer Perceptron Network (MPN) & Convolutional Neural Network (CNN):
-
+Multilayer Perceptron Network (MPN) & Convolutional Neural Network (CNN):   
 experiment number, trials, learning rate, training epochs, feature size, (features included)
 
 Random Forests (RF):

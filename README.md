@@ -6,3 +6,5 @@ Neural network and additional machine learning algorithm classifiers for proof-o
 Developed by Rohan Parikh.
 
 Research publication pending.
+
+Datasets provided from Nuo Li on CRCNS and Mike Economo from Janelia Research Campus.

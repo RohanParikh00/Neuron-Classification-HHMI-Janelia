@@ -73,7 +73,7 @@ for file = 1:length(pt_l_FileNames)
     for x = 1:size(unit.waveform,1)
         %fill with features
         maxIdx = wvfrmExtraction(unit.waveform(x,:));
-        numWvfrm = int16(size(unit.waveform,2) / 32);
+        numWvfrm = floor(size(unit.waveform,2) / 32);
         inputWvfrm = unit.waveform(x,((32*(maxIdx-1) + 1):(maxIdx * 32)));
         inputST = unit.spike_times;
         L(x,1) = 2;
@@ -101,12 +101,13 @@ for file = 1:length(pt_l_FileNames)
     end
 fprintf('Completed ' + string(pt_l_FileNames(file)) + '\n')
 end
+csvwrite('L.csv', L);
 toc
 
 % Extract largest waveform of 5-7 waveforms
 function idx = wvfrmExtraction(w)
     amplitude = zeros(7, 2);
-    numWvfrm = int16(size(w,2) / 32);
+    numWvfrm = floor(size(w,2) / 32);
     maxIdx = 0;
     maxAmp = -1;
     for wvfrm = 1:numWvfrm
